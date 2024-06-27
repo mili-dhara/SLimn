@@ -10,23 +10,23 @@ Drawing Generation: Creates drawings based on the interpreted text.
 User-Friendly Interface: Easy to use with intuitive controls.
 
 # Usage
-Start the application.
-Speak into the microphone to describe what you want to draw.
-View the generated drawing on the screen.
-Save or modify the drawing as needed.
+- Start the application.
+- Speak into the microphone to describe what you want to draw.
+- View the generated drawing on the screen.
+- Save or modify the drawing as needed.
 
 # Technologies Used
-Programming Languages: Python, JavaScript
-Libraries:
-Speech Recognition: speech_recognition
-Natural Language Processing: nltk, spaCy
-Machine Learning: PyTorch
-Drawing: matplotlib, Pillow
-Frontend: React, JSX
-Framework: Flask (for backend)
-Build Tool: Vite
-Web Technologies: HTML, CSS
-Tools: Git, Virtualenv
+- Programming Languages: Python, JavaScript
+- Libraries:
+  - Speech Recognition: speech_recognition
+  - Natural Language Processing: nltk, spaCy
+  - Machine Learning: PyTorch
+  - Drawing: matplotlib, Pillow
+- Frontend: React, JSX
+- Framework: Flask (for backend)
+- Build Tool: Vite
+- Web Technologies: HTML, CSS
+- Tools: Git, Virtualenv
 
 # Contributors
 Mili Dhara - [your GitHub profile](https://github.com/mili-dhara)
