@@ -29,10 +29,10 @@ User-Friendly Interface: Easy to use with intuitive controls.
 - Tools: Git, Virtualenv
 
 # Contributors
-Mili Dhara - [your GitHub profile](https://github.com/mili-dhara)
-Nutan Kumari Marandi - [GitHub profile](https://github.com/Nutan-Kumari-Marandi)
-Ashish Hembrom - [GitHub profile](https://github.com/Ander-z)
-Alex Murmu - [GitHub profile](https://github.com/Alex-Murmu)
+- Mili Dhara - [your GitHub profile](https://github.com/mili-dhara)
+- Nutan Kumari Marandi - [GitHub profile](https://github.com/Nutan-Kumari-Marandi)
+- Ashish Hembrom - [GitHub profile](https://github.com/Ander-z)
+- Alex Murmu - [GitHub profile](https://github.com/Alex-Murmu)
 
 # License
 This project is licensed under the MIT License.
