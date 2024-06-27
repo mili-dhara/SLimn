@@ -1,0 +1,79 @@
+/* src/App.css */
+
+.dashboard-card {
+    position: absolute;
+    top: 60px; /* Adjust based on your layout */
+    right: 10px;
+    width: 250px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+
+.dashboard-card h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.dashboard-card img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.dashboard-card p {
+    margin: 0;
+    text-align: center;
+}
+
+.dashboard-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dashboard-card li {
+    margin: 10px 0;
+}
+
+.dashboard-card button {
+    color: #1d4ed8; /* Tailwind's blue-600 */
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+}
+
+.dashboard-card button:hover {
+    text-decoration: underline;
+}
+
+.dashboard-card button.logout {
+    color: #dc2626; /* Tailwind's red-600 */
+}
+.dashboard-card-container {
+    position: relative;
+}
+
+.dashboard-card-popup {
+    display: none;
+    position: absolute;
+    top: calc(100% + 10px); /* Adjust this value to control the distance from the trigger */
+    right: 0;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-card-trigger:hover + .dashboard-card-popup {
+    display: block;
+}

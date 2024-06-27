@@ -1,0 +1,100 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.app {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333333;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: calc(100% - 85px);
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    resize: none;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.output-container {
+    border-top: 1px solid #ced4da;
+    padding-top: 20px;
+}
+
+h2 {
+    color: #333333;
+}
+
+.output {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    min-height: 100px;
+    background-color: #f3f4f6;
+}
+/* aaap.css */
+
+/* Typing animation container */
+.typing-container {
+    display: inline-block;
+    border-right: 2px solid; /* Cursor effect */
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  
+  /* Keyframe for the typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* Keyframe for the cursor blinking effect */
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+  }
+  
