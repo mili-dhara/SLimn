@@ -15,7 +15,7 @@ Speak into the microphone to describe what you want to draw.
 View the generated drawing on the screen.
 Save or modify the drawing as needed.
 
-#Technologies Used
+# Technologies Used
 Programming Languages: Python, JavaScript
 Libraries:
 Speech Recognition: speech_recognition
